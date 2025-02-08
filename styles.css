@@ -1,0 +1,38 @@
+/* Default */
+* {
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+/* Add an External font*/
+@font-face {
+    font-family: digital;
+    src: url(/fonts/digital-7.ttf);
+}
+
+/* Container Section */
+.container {
+    color: violet ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 12.5rem;
+    width: 50rem;
+    top: 50%;
+    left: 50%;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Digital Clock Section */
+.digital__clock {
+    font-size: 10.6rem;
+    font-family: digital;
+    text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.7);
+}
